@@ -29,6 +29,9 @@ public class SwiftNotificationPlugin: NSObject, FlutterPlugin {
             
         })
         
+        
+        
+        
         let content = UNMutableNotificationContent()
         content.title = argsMap.value(forKey: "title") as! String;
         content.body = argsMap.value(forKey: "description") as! String;
